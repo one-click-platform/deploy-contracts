@@ -1,0 +1,13 @@
+eth:
+  url: "http://127.0.0.1:8545"
+  keydir: /root/.ethereum
+  address: 0x912d845A19E0F1a61db8631eBA7138aA460002F1
+  password: qwerty
+log:
+  disable_sentry: true
+  level: debug
+
+  Endpoint *url.URL `fig:"url,required"`
+  KeyDir   string   `fig:"keydir,required"`
+  Address  string   `fig:"address"`
+  Password string   `fig:"password,required"`
