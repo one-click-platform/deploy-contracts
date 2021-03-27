@@ -418,6 +418,12 @@ github.com/olekukonko/tablewriter v0.0.2-0.20190409134802-7e037d187b0c h1:1RHs3t
 github.com/olekukonko/tablewriter v0.0.2-0.20190409134802-7e037d187b0c/go.mod h1:vsDQFd/mU46D+Z4whnwzcISnGGzXWMclvtLoiIKAKIo=
 github.com/one-click-platform/system-contracts v0.0.0-20210327150126-ea024a748ca2 h1:pL2j5cDnFfQV63wvDoxQGLSWAve6swt9veCTSmIAYLg=
 github.com/one-click-platform/system-contracts v0.0.0-20210327150126-ea024a748ca2/go.mod h1:mysso6A41Hf7AIMvxhjoyGv11pA+MKfUTklY2E/17MM=
+github.com/one-click-platform/system-contracts v0.0.0-20210327181655-0345ec4af1d2 h1:M5Mp1V6nopo4sL7u2yImYoA5ANjYOnNTxeqWchi3AMY=
+github.com/one-click-platform/system-contracts v0.0.0-20210327181655-0345ec4af1d2/go.mod h1:mysso6A41Hf7AIMvxhjoyGv11pA+MKfUTklY2E/17MM=
+github.com/one-click-platform/system-contracts v0.0.0-20210327190223-90f4ffa4ad50 h1:iqzBaEXtazRo7S4LxdqvRt4y6QISNV5fjGnX98xOCZA=
+github.com/one-click-platform/system-contracts v0.0.0-20210327190223-90f4ffa4ad50/go.mod h1:mysso6A41Hf7AIMvxhjoyGv11pA+MKfUTklY2E/17MM=
+github.com/one-click-platform/system-contracts v0.0.0-20210327191459-9229f786a0db h1:AmpE9r+meBaVfsvY565KcPiNI3kMP2Z8GO201irPf/s=
+github.com/one-click-platform/system-contracts v0.0.0-20210327191459-9229f786a0db/go.mod h1:mysso6A41Hf7AIMvxhjoyGv11pA+MKfUTklY2E/17MM=
 github.com/onsi/ginkgo v1.6.0/go.mod h1:lLunBs/Ym6LB5Z9jYTR76FiuTmxDTDusOGeTQH+WWjE=
 github.com/onsi/ginkgo v1.7.0/go.mod h1:lLunBs/Ym6LB5Z9jYTR76FiuTmxDTDusOGeTQH+WWjE=
 github.com/onsi/ginkgo v1.10.3/go.mod h1:lLunBs/Ym6LB5Z9jYTR76FiuTmxDTDusOGeTQH+WWjE=

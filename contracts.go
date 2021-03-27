@@ -17,5 +17,15 @@ func tasks() []deployer.DeployFunc {
 			addr, tx, _, err := generated.DeployWETH(dep.TransactOpts(), dep.Client, "Wrapped ETH", "WETH")
 			return addr, tx, err
 		},
+		func(dep *deployer.Deployer) (common.Address, *types.Transaction, error) {
+			addr, tx, _, err := generated.DeployWERC721(
+				dep.TransactOpts(),
+				dep.Client,
+				[]common.Address{},
+				"Wrapped ERC721",
+				"WERC721",
+			)
+			return addr, tx, err
+		},
 	}
 }
