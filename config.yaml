@@ -6,8 +6,3 @@ eth:
 log:
   disable_sentry: true
   level: debug
-
-  Endpoint *url.URL `fig:"url,required"`
-  KeyDir   string   `fig:"keydir,required"`
-  Address  string   `fig:"address"`
-  Password string   `fig:"password,required"`
