@@ -75,12 +75,12 @@ func (n *node) config() ethConfig {
 		}
 
 		result.KeyStore = keystore.NewKeyStore(cfg.KeyDir, keystore.StandardScryptN, keystore.StandardScryptP)
-		acc := result.KeyStore.Accounts()[0]
+		result.Account = result.KeyStore.Accounts()[0]
 		if cfg.Address != "" {
-			acc = accounts.Account{Address: common.HexToAddress(cfg.Address)}
+			result.Account = accounts.Account{Address: common.HexToAddress(cfg.Address)}
 		}
 
-		err = result.KeyStore.Unlock(acc, cfg.Password)
+		err = result.KeyStore.Unlock(result.Account, cfg.Password)
 		if err != nil {
 			panic(errors.Wrap(err, "failed to unlock account"))
 		}
